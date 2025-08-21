@@ -5,8 +5,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import com.hocheol.presentation.MainActivity
+import dagger.hilt.android.HiltAndroidApp
 import kotlin.system.exitProcess
 
+@HiltAndroidApp
 class InvoiceTalkApplication : Application() {
     override fun onCreate() {
         super.onCreate()
