@@ -41,4 +41,13 @@ dependencies {
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
+
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.adapter.rxjava2)
+
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.urlconnection)
+
+    implementation(libs.androidx.datastore.preferences)
 }
